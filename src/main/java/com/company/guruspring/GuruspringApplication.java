@@ -20,6 +20,7 @@ public class GuruspringApplication {
         System.out.println(context.getBean(PropertyInjectedController.class).sayHello());
         System.out.println(context.getBean(ConstructorInjectedController.class).sayHello());
         System.out.println(context.getBean(GetterInjectedController.class).sayHello());
+        System.out.println("ASd");
     }
 
 }
